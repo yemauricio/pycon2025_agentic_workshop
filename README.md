@@ -15,7 +15,7 @@
     - `app.py` ← Streamlit frontend
   - `requirements.txt`
   - `README.md`
-  - env.env: gemini_api_key
+  - env.env: gemini_api_key refer to link https://ai.google.dev/gemini-api/docs/api-keylink 
 
 ## RUNNING INSTRUCTIONS
 ### **Start FastAPI backend**
