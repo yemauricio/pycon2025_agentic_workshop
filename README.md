@@ -3,7 +3,6 @@
 - **agentic/**
   - **src/**
     - **agent/**
-      - `base_agent.py`
       - `pdf_tool.py`
       - `code_tool.py`
     - **service/**

@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from fastapi import FastAPI, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
-from src.service.gemini_llm import get_agent
+from src.agent.gemini_llm import get_agent
 import tempfile
 
 app = FastAPI()

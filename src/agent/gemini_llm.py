@@ -1,6 +1,6 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import initialize_agent, AgentType
-from .handler import get_tools
+from .tools_logic import get_tools
 import os
 from dotenv import load_dotenv
 

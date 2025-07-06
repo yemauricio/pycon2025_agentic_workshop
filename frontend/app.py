@@ -26,7 +26,7 @@ if st.button("Run Agent"):
             st.success("Done!")
             st.text_area("Result", response.json()["result"], height=300)
     elif tool == "Code" and code and prompt:
-        with st.spinner("Reviewing Code..."):
+        with st.spinner("Code analysis ..."):
             response = requests.post(
                 "http://localhost:8000/process/",
                 data={"tool": "code", "prompt": prompt, "code": code}
