@@ -1,5 +1,5 @@
 from src.tools.pdf_tool import pdf_tool
-from src.tools.code_tool import code_tool
+from src.tools.code_tool import code_tool, generate_code
 
 def get_tools(tool_type: str):
     if tool_type == "pdf":
